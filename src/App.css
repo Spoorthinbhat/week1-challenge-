@@ -1,0 +1,185 @@
+:root {
+  font-size: 0.56vw;
+}
+
+.Calender-blue {
+  display: flex;
+  width: 76.4375rem;
+  height: 67.5rem;
+  padding: 2.6875rem 6.8125rem 2.6875rem 6.875rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #249ee3;
+}
+.Calender-covering {
+  display: flex;
+  width: 57.75rem;
+  height: 58.125rem;
+  padding: 3.75rem;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.date {
+  width: 3rem;
+  height: 3rem;
+  color: #000;
+  text-align: center;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 0.05rem #d5d4df solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  border-radius: 50%;
+}
+.date:hover {
+  background-color: #5ed3ec;
+}
+.Calender-white {
+  display: flex;
+  width: 60.4rem;
+  height: 40rem;
+  flex-shrink: 0;
+  margin-top: 1.25rem;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.day {
+  font-weight: 600;
+  border: 0.06rem #ffffff solid;
+}
+.day:hover {
+  background-color: #ffffff;
+}
+.month-year-bar {
+  display: flex;
+  width: 57.4rem;
+  height: 5.75rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#month-year {
+  display: flex;
+  color: #000;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  align-items: center;
+  justify-content: center;
+}
+#left {
+  padding: 32px;
+  color: #afafaf;
+}
+#right {
+  padding: 32px;
+}
+svg {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.date-day-year {
+  float: right;
+  color: #ffffff;
+  display: grid;
+  width: 24rem;
+  height: 10.75rem;
+  grid-template-columns: 1.8fr 1fr;
+  grid-template-rows: 2fr 1fr;
+}
+.date-number {
+  font-size: 9rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 4px;
+}
+.day-year {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.next {
+  background-color: #d5d4df;
+  color: #a8a8a8;
+}
+.next:hover {
+  background-color: #d5d4df;
+}
+.bluecolor {
+  background-color: #5ed3ec;
+}
+.task {
+  background-color: #9aedf2;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  width: 31.4rem;
+  height: 4rem;
+  border-radius: 20px;
+  font-size: 3.16213rem;
+  padding: 0.32281rem 0.65431rem 0.30363rem 0.64563rem;
+  list-style-type: none;
+  margin: 10px;
+  font-weight: 400;
+  color: #676767;
+}
+.Taskdisplay {
+  background-color: #36dbe5;
+  height: 72.9rem;
+  width: 43.56rem;
+}
+.container {
+  display: flex;
+}
+.insert {
+  align-self: flex-end;
+}
+.Title1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  /* margin-top: 11rem; */
+}
+.Datecontainer {
+  width: 43.56rem;
+  height: 11rem;
+}
+input[type="text"] {
+  height: 2rem;
+  border-radius: 5rem;
+  width: 70%;
+  justify-self: end;
+}
+button {
+  height: 2.4rem;
+  width: 7rem;
+  border-radius: 10%;
+  background-color: whitesmoke;
+  font-size: 1.6rem;
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+@media (max-width: 360px) {
+  .container {
+    display: inline;
+  }
+  .Taskdisplay {
+    width: 85.4375rem;
+  }
+}
+/* .title-container {
+  height: 15rem;
+} */
